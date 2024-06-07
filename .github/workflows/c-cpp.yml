@@ -13,6 +13,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
+    - name: build premake
+      run: cd Scripts && ./Setup-Linux.sh && cd ..
     - name: make config=dist
       run: make config=dist
     - name: make check
