@@ -1,0 +1,3 @@
+[submodule "Vendor/Binaries/Premake/Linux/premake-clion"]
+	path = Vendor/Binaries/Premake/Linux/clion
+	url = https://github.com/Enhex/premake-clion.git
