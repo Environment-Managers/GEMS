@@ -7,9 +7,6 @@ workspace "GEMS-Manager"
    -- Workspace-wide build options for MSVC
    filter "system:windows"
       buildoptions { "/EHsc", "/Zc:preprocessor", "/Zc:__cplusplus" }
-   filter "system:linux"
-      require "cmake"
-      require "clion"
 
 OutputDir = "%{cfg.system}-%{cfg.architecture}/%{cfg.buildcfg}"
 
